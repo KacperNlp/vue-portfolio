@@ -32,6 +32,10 @@ export default {
   outline: transparent;
   overflow: hidden;
 
+  @media (min-width: 1280px) {
+    display: none;
+  }
+
   span {
     position: absolute;
     top: 50%;

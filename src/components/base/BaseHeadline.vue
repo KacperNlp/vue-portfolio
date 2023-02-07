@@ -8,7 +8,7 @@ export default {
   name: "BaseHeadline",
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .base-headline {
   h1,
   h2,
