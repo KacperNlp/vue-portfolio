@@ -2,7 +2,10 @@
   <the-header></the-header>
   <main class="main">
     <div class="main-fixed-image"></div>
-    <div class="main-content"><section-about-me></section-about-me></div>
+    <div class="main-content">
+      <section-about-me></section-about-me>
+      <section-my-service></section-my-service>
+    </div>
   </main>
 </template>
 
@@ -12,10 +15,11 @@ import TheHeader from "./components/layout/TheHeader.vue";
 
 //sections
 import SectionAboutMe from "./components/sections/SectionAboutMe.vue";
+import SectionMyService from "./components/sections/SectionMyService.vue";
 
 export default {
   name: "App",
-  components: { TheHeader, SectionAboutMe },
+  components: { TheHeader, SectionAboutMe, SectionMyService },
 };
 </script>
 
