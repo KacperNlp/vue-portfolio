@@ -1,5 +1,10 @@
 <template>
-  <button class="bar" :class="{ active: isNavActive }" @click="openNav">
+  <button
+    class="bar"
+    :class="{ active: isNavActive }"
+    @click="openNav"
+    aria-label="bar button"
+  >
     <span></span>
   </button>
 </template>

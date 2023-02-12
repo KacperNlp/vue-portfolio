@@ -7,6 +7,7 @@
     <div class="main-content">
       <section-about-me></section-about-me>
       <section-my-service></section-my-service>
+      <section-portfolio></section-portfolio>
       <section-tech-stack></section-tech-stack>
     </div>
   </main>
@@ -20,6 +21,7 @@ import TheHeader from "./components/layout/TheHeader.vue";
 //sections
 import SectionAboutMe from "./components/sections/SectionAboutMe.vue";
 import SectionMyService from "./components/sections/SectionMyService.vue";
+import SectionPortfolio from "./components/sections/SectionPortfolio.vue";
 import SectionTechStack from "./components/sections/SectionTechStack.vue";
 
 export default {
@@ -29,6 +31,7 @@ export default {
     TheHeader,
     SectionAboutMe,
     SectionMyService,
+    SectionPortfolio,
     SectionTechStack,
   },
 };
